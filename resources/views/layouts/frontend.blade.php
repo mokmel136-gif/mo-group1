@@ -44,9 +44,7 @@
                     <a href="{{ route('projects.index') }}" class="font-bold hover:text-blue-600 transition">المشاريع</a>
                     <a href="{{ route('about') }}" class="font-bold hover:text-blue-600 transition">من نحن</a>
                     <a href="{{ route('contact') }}" class="font-bold hover:text-blue-600 transition">اتصل بنا</a>
-                    @auth
-                        <a href="{{ route('admin.dashboard') }}" class="bg-gray-900 text-white px-5 py-2 rounded-xl text-sm font-semibold hover:bg-gray-800 transition">لوحة التحكم</a>
-                    @endauth
+                    <a href="{{ route('admin.dashboard') }}" class="bg-gray-900 text-white px-5 py-2 rounded-xl text-sm font-semibold hover:bg-gray-800 transition">لوحة التحكم</a>
                 </div>
 
                 <div class="md:hidden">
@@ -60,9 +58,7 @@
                 <a href="{{ route('projects.index') }}" class="block font-bold hover:text-blue-600 transition">المشاريع</a>
                 <a href="{{ route('about') }}" class="block font-bold hover:text-blue-600 transition">من نحن</a>
                 <a href="{{ route('contact') }}" class="block font-bold hover:text-blue-600 transition">اتصل بنا</a>
-                @auth
-                    <a href="{{ route('admin.dashboard') }}" class="block bg-gray-900 text-white px-5 py-2 rounded-xl text-center text-sm font-semibold hover:bg-gray-800 transition">لوحة التحكم</a>
-                @endauth
+                <a href="{{ route('admin.dashboard') }}" class="block bg-gray-900 text-white px-5 py-2 rounded-xl text-center text-sm font-semibold hover:bg-gray-800 transition">لوحة التحكم</a>
             </div>
         </nav>
     </header>
