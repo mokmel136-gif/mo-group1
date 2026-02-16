@@ -49,7 +49,7 @@
         <div class="absolute top-0 left-0 w-96 h-96 bg-blue-600 rounded-full blur-[100px] -ml-48 -mt-48 opacity-20"></div>
         <div class="relative z-10 flex flex-col md:flex-row items-center justify-between">
             <div class="text-right">
-                <h3 class="text-4xl font-black mb-4">مرحباً بك مجدداً، {{ Auth::user()->name }} 👋</h3>
+                <h3 class="text-4xl font-black mb-4">مرحباً بك مجدداً، {{ Auth::user()?->name ?? 'زائرنا الكريم' }} 👋</h3>
                 <p class="text-blue-100 text-lg font-medium max-w-xl">لقد زاد معدل التفاعل في موقعك بنسبة 24% هذا الأسبوع. واصل العمل الرائع وتابع مشاريعك الجديدة من هنا.</p>
                 <div class="mt-8 flex items-center space-x-6 space-x-reverse">
                     <a href="{{ route('admin.projects.create') }}" class="px-8 py-4 bg-white text-blue-900 rounded-2xl font-black shadow-xl hover:bg-blue-50 transition transform hover:-translate-y-1">إضافة مشروع جديد</a>

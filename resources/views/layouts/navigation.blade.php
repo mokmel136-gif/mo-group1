@@ -50,10 +50,10 @@
         <div class="relative" x-data="{ userOpen: false }">
             <button @click="userOpen = !userOpen" class="w-full flex items-center p-4 bg-gray-50 rounded-[2rem] hover:bg-gray-100 transition duration-300 border border-transparent hover:border-blue-100 group">
                 <div class="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-black shadow-lg shadow-blue-100 ml-4">
-                    {{ mb_substr(Auth::user()->name, 0, 1) }}
+                    {{ mb_substr(Auth::user()?->name ?? 'زائر', 0, 1) }}
                 </div>
                 <div class="flex-1 text-right overflow-hidden">
-                    <p class="text-sm font-black text-gray-900 truncate">{{ Auth::user()->name }}</p>
+                    <p class="text-sm font-black text-gray-900 truncate">{{ Auth::user()?->name ?? 'زائر' }}</p>
                     <p class="text-[10px] text-gray-400 font-bold truncate">المدير العام</p>
                 </div>
                 <svg class="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="2"></path></svg>
