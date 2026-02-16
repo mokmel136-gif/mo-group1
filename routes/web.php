@@ -17,7 +17,7 @@ Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 Route::post('/contact', [PublicController::class, 'sendMessage'])->name('contact.send');
 Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
 
-Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
+Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::resource('projects', AdminProjectController::class);
     Route::resource('categories', CategoryController::class);
