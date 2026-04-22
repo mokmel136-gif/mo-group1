@@ -1,59 +1,209 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h1>🌐 مو لتطوير الويب | MO Web Development</h1>
+
+<p>موقع إلكتروني احترافي لعرض أعمال وخدمات وكالة تطوير الويب، مبني بإطار عمل Laravel مع لوحة تحكم إدارية متكاملة.</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </p>
 
-## About Laravel
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📋 نظرة عامة
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**مو لتطوير الويب** هو موقع إلكتروني متكامل يُقدّم خدمات وكالة تطوير ويب متخصصة. يوفر الموقع واجهة جذابة للزوار لاستعراض المشاريع المنجزة والتواصل مع الفريق، إلى جانب لوحة تحكم إدارية شاملة لإدارة كل محتوى الموقع.
 
-## Learning Laravel
+## ✨ المميزات الرئيسية
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 🖥️ الواجهة الأمامية (Frontend)
+- **الصفحة الرئيسية** – عرض ديناميكي للمشاريع المميزة وأعضاء الفريق
+- **معرض المشاريع** – استعراض جميع المشاريع المنجزة مع التفاصيل الكاملة
+- **صفحة من نحن** – التعريف بالفريق والرؤية والقيم
+- **صفحة التواصل** – نموذج اتصال مدمج لاستقبال طلبات العملاء
+- **تصميم RTL** – دعم كامل للغة العربية واتجاه النص من اليمين لليسار
+- **تصميم متجاوب** – متوافق مع جميع أحجام الشاشات
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 🔧 لوحة التحكم الإدارية (Admin Panel)
+- **إدارة المشاريع** – إضافة وتعديل وحذف المشاريع مع صور متعددة وتصنيفات
+- **إدارة التصنيفات** – تنظيم المشاريع ضمن فئات وتصنيفات
+- **إدارة الفريق** – عرض وإدارة أعضاء الفريق مع صورهم وأدوارهم
+- **إدارة الرسائل** – استعراض رسائل التواصل الواردة من العملاء
+- **لوحة إحصائيات** – نظرة عامة على أداء الموقع
 
-## Laravel Sponsors
+### 🔐 المصادقة والأمان
+- نظام تسجيل دخول متكامل (Laravel Breeze)
+- تسجيل الدخول عبر حساب Google (OAuth 2.0)
+- حماية مسارات لوحة التحكم
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ التقنيات المستخدمة
 
-### Premium Partners
+| الطبقة | التقنية |
+|--------|---------|
+| **Backend** | Laravel 12.x |
+| **PHP** | 8.2+ |
+| **Frontend** | Blade Templates + TailwindCSS 3 |
+| **Build Tool** | Vite 6 |
+| **المصادقة** | Laravel Breeze + Laravel Socialite (Google) |
+| **قاعدة البيانات** | MySQL / SQLite |
+| **التخزين** | Laravel Storage (Local/Cloud) |
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🚀 طريقة التثبيت
 
-## Contributing
+### المتطلبات الأساسية
+- PHP >= 8.2
+- Composer
+- Node.js >= 18
+- قاعدة بيانات MySQL أو SQLite
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### خطوات الإعداد
 
-## Code of Conduct
+**1. استنساخ المستودع**
+```bash
+git clone https://github.com/mokmel136-gif/mo-group-website.git
+cd mo-web-site
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**2. تثبيت الاعتماديات**
+```bash
+composer install
+npm install
+```
 
-## Security Vulnerabilities
+**3. إعداد ملف البيئة**
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**4. إعداد قاعدة البيانات**
 
-## License
+افتح ملف `.env` وعدّل إعدادات قاعدة البيانات:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mo_web_site
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**5. تشغيل الـ Migrations**
+```bash
+php artisan migrate --seed
+```
+
+**6. إعداد التخزين**
+```bash
+php artisan storage:link
+```
+
+**7. إعداد Google OAuth** *(اختياري)*
+
+أضف بيانات Google إلى ملف `.env`:
+```env
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+GOOGLE_REDIRECT_URI=http://localhost:8000/auth/google/callback
+```
+
+**8. تشغيل المشروع**
+```bash
+# تشغيل كل الخدمات معاً
+composer run dev
+```
+
+أو بشكل منفصل:
+```bash
+php artisan serve
+npm run dev
+```
+
+ثم افتح المتصفح على: `http://localhost:8000`
+
+## 📁 هيكل المشروع
+
+```
+mo-web-site/
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   │       ├── Admin/              # متحكمات لوحة التحكم
+│   │       │   ├── ProjectController.php
+│   │       │   ├── CategoryController.php
+│   │       │   ├── TeamController.php
+│   │       │   ├── MessageController.php
+│   │       │   └── DashboardController.php
+│   │       ├── Authorize/          # مصادقة Google
+│   │       │   └── GoogleAuthController.php
+│   │       ├── ProjectController.php
+│   │       ├── PublicController.php
+│   │       └── ProfileController.php
+│   └── Models/
+│       ├── Project.php
+│       ├── Category.php
+│       ├── TeamMember.php
+│       ├── ContactMessage.php
+│       ├── ProjectImage.php
+│       └── User.php
+├── resources/
+│   └── views/
+│       ├── layouts/               # قوالب التخطيط
+│       ├── admin/                 # صفحات لوحة التحكم
+│       ├── projects/              # صفحات المشاريع
+│       ├── welcome.blade.php      # الصفحة الرئيسية
+│       ├── about.blade.php        # من نحن
+│       └── contact.blade.php      # تواصل معنا
+├── routes/
+│   └── web.php                    # تعريف المسارات
+└── database/
+    ├── migrations/
+    └── seeders/
+```
+
+## 🗺️ مسارات الموقع
+
+### الواجهة العامة
+| المسار | الوصف |
+|--------|-------|
+| `GET /` | الصفحة الرئيسية |
+| `GET /projects` | معرض المشاريع |
+| `GET /projects/{id}` | تفاصيل مشروع |
+| `GET /about` | من نحن |
+| `GET /contact` | تواصل معنا |
+| `POST /contact` | إرسال رسالة |
+| `GET /auth/google` | تسجيل الدخول بـ Google |
+
+### لوحة التحكم (تتطلب تسجيل الدخول)
+| المسار | الوصف |
+|--------|-------|
+| `GET /admin/dashboard` | لوحة الإحصائيات |
+| `CRUD /admin/projects` | إدارة المشاريع |
+| `CRUD /admin/categories` | إدارة التصنيفات |
+| `CRUD /admin/team` | إدارة الفريق |
+| `CRUD /admin/messages` | إدارة الرسائل |
+
+## 🤝 المساهمة
+
+نرحب بمساهماتكم! يرجى اتباع الخطوات التالية:
+
+1. انسخ المستودع `Fork`
+2. أنشئ فرعاً جديداً `git checkout -b feature/amazing-feature`
+3. اعمل التغييرات وأضفها `git commit -m 'Add amazing feature'`
+4. ادفع التغييرات `git push origin feature/amazing-feature`
+5. افتح `Pull Request`
+
+## 📄 الرخصة
+
+هذا المشروع مرخص تحت رخصة MIT — انظر ملف [LICENSE](LICENSE) للتفاصيل.
+
+---
+
+<div align="center">
+  <p>صُنع بـ ❤️ بواسطة فريق <strong>مو لتطوير الويب</strong></p>
+</div>
